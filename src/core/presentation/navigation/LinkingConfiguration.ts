@@ -1,5 +1,6 @@
 /**
  * Learn more about deep linking with React Navigation
+ * 进一步了解 React Navigation 的深层链接
  * https://reactnavigation.org/docs/deep-linking
  * https://reactnavigation.org/docs/configuring-links
  */
@@ -20,3 +21,4 @@ const linking: LinkingOptions<RootStackParamList> = {
 };
 
 export default linking;
+

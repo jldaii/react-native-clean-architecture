@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any - 禁用显式 any 类型检查 */
 import React, { ComponentType, PropsWithChildren } from "react";
 
 export const withProviders =

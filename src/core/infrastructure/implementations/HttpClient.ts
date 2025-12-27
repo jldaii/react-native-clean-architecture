@@ -14,6 +14,7 @@ class HttpClient implements IHttpClient {
       requestConfig.baseURL = env.apiUrl;
 
       // TODO: add authentication
+      // TODO: 添加身份验证
 
       return requestConfig;
     });
@@ -22,6 +23,7 @@ class HttpClient implements IHttpClient {
       if (err.response) {
         if (err.response.status === 401 || err.response.status === 403) {
           // TODO: logout
+          // TODO: 登出
         }
       }
 

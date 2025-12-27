@@ -5,8 +5,10 @@ import {
 
 declare global {
   // eslint-disable-next-line @typescript-eslint/no-namespace
+  // 禁用下一行 @typescript-eslint/no-namespace 检查
   namespace ReactNavigation {
     // eslint-disable-next-line @typescript-eslint/no-empty-interface
+    // 禁用下一行 @typescript-eslint/no-empty-interface 检查
     interface RootParamList extends RootStackParamList {}
   }
 }
